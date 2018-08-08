@@ -1,0 +1,31 @@
+{
+  "name": "skatebook",
+  "version": "1.0.0",
+  "description": "Skateboarding Meetup/socialApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thamma513/skateBook.git"
+  },
+  "author": "Tyler Hamilton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thamma513/skateBook/issues"
+  },
+  "homepage": "https://github.com/thamma513/skateBook#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "gravatar": "^1.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.5.0"
+  }
+}
